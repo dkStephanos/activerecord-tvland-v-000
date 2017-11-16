@@ -1,7 +1,7 @@
 class CreateCharacters < ActiveRecord::Migration
 
   def change
-    create_table :networks do |t|
+    create_table :characters do |t|
       t.string :name
     end
   end
