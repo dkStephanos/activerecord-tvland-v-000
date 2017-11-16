@@ -1,5 +1,6 @@
 class Show < ActiveRecord::Base
 
-  belongs_to :character
+  has_many :characters
+  has_many :actors, through: :characters
 
 end
