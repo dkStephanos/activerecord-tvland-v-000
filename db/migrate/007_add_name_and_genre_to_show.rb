@@ -3,7 +3,6 @@ class AddNameAndGenreToShow < ActiveRecord::Migration
   #a new migration, and then in the change method,
   #we make the change.
   def change
-    add_column :shows, :name, :string
     add_column :shows, :genre, :string
   end
 end
